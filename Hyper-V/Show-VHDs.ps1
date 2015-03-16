@@ -1,4 +1,6 @@
-﻿$VMs = Get-VM
+﻿# Added to GitHub
+
+$VMs = Get-VM
 Foreach ($VM in $VMs)
 {
   $HardDrives = $VM.HardDrives
