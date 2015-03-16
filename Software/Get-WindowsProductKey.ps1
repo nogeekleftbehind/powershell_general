@@ -1,4 +1,5 @@
-﻿#http://poshcode.org/868
+﻿# The script writes the Windows Installation Key to the screen
+# http://poshcode.org/868
 function get-windowsproductkey([string]$computer)
 {
 $Reg = [WMIClass] ("\\" + $computer + "\root\default:StdRegProv")
